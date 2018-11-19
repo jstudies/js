@@ -1,12 +1,4 @@
-let x = 100;
-console.log(x+x);
-console.log("Hello "+"World");
-
-let y=x;
-
-console.log(y);
-
-let a,b,c;
-
-a=5;
-b=c=a+5;
+var x=[5,77,344,"Hello","World"];
+var[a,b,c,d]=x;
+console.log(a,b,c,d);
+//console.log(z);
