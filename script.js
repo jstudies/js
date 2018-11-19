@@ -1,26 +1,12 @@
-let myArray=["Hello","World",50,false];
-console.log(myArray[0]+" "+myArray[1]);
+let x = 100;
+console.log(x+x);
+console.log("Hello "+"World");
 
-myArray[myArray.length+1]="New Item";
-myArray.push("At the end");
-let firstone=myArray.shift();
-console.log(firstone);
+let y=x;
 
-myArray.unshift("New one at the start");
+console.log(y);
 
-myArray[5]="smth";
-delete myArray[3];
+let a,b,c;
 
-let rep=myArray.splice(3,2,"One","Two")
-console.log(rep);
-
-let res=myArray.slice(3); /* new instance */
-console.log(res);
-let myStr= myArray.toString();
-let myArray2=myStr.split(','); /* splits CSV */
-let myArray3=myArray.join('-');
-console.log(myStr);
-console.log(myArray2);
-console.log(myArray3);
-
-
+a=5;
+b=c=a+5;
