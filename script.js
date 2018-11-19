@@ -14,26 +14,13 @@ delete myArray[3];
 let rep=myArray.splice(3,2,"One","Two")
 console.log(rep);
 
+let res=myArray.slice(3); /* new instance */
+console.log(res);
+let myStr= myArray.toString();
+let myArray2=myStr.split(','); /* splits CSV */
+let myArray3=myArray.join('-');
+console.log(myStr);
+console.log(myArray2);
+console.log(myArray3);
 
 
-
-
-/*let lastone=myArray.pop();
-console.log(lastone);  */
-
-/*
-let myObj={first:"Dmitry",last:"Melnikov"};
-var shopping=['bread','milk','cheese']
-
-myObj.first="John";
-
-console.log(myObj);
-
-let myChair={color:"blue",wheels:4,material:"crap",age:"old"
-            }
-
-myObj['second']="second";
-let holder=1;
-myObj['a'+holder]="a123";
-console.log(myObj);
-*/
